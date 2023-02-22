@@ -1,0 +1,24 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.intro-banner {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.intro-banner-overlay {
+    background-color: rgba(54, 69, 79, 0.7);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-header {
+    margin-bottom: 20px;
+}
