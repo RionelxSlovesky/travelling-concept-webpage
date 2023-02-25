@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 4rem;
+    padding: 4em;
 }
 
 .intro-banner-overlay {
@@ -45,6 +45,25 @@
 .intro-desc {
     font-size: 1.25rem;
     margin-bottom: 1em;
+    width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+/* main */
+/* founders */
+#founders-container {
+    padding: 5em 9em;
+}
+
+#founders-header {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#founders-desc {
+    font-size: 1.25rem;
     width: 100%;
     max-width: 700px;
     margin-inline: auto;
