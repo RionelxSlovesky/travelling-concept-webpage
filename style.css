@@ -59,7 +59,7 @@
     padding: 5em 5em;
 }
 
-#founders-header, #places-header {
+#founders-header, #places-header, #reviews-header {
     font-size: 2rem;
     margin-bottom: 1em;
     text-align: center;
@@ -82,11 +82,10 @@
     color: white;
 }
 
-.big-flex {
+.f-row {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 2.5em;
 }
 
 .place-container {
@@ -94,12 +93,22 @@
     color: rgba(37, 53, 26, 0.7);
     padding: 2em 3em;
     border-radius: 2em;
+    max-width: 29%;
 }
 
-.place-header {
+.place-header, .review-header {
     font-size: 1.5rem;
     margin-bottom: 0.3em;
 }
 
+#reviews-container {
+    color: rgba(37, 53, 26, 0.7);
+}
+
+.review-container {
+    padding: 2em 0;
+    max-width: 48%;
+    color: rgba(37, 53, 26, 0.7);
+}
 
 
