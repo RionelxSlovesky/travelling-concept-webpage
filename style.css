@@ -32,9 +32,12 @@
     padding: 1.5em 4em;
 }
 
+.logo-container {
+    margin-right: 9.2em;
+}
+
 .logo {
     width: 2.5em;
-    margin-right: 1.5em;
 }
 
 .nav-primary {
@@ -51,6 +54,10 @@
     gap: 2em;
     list-style: none;
     align-items: center;
+}
+
+.nav-list-primary {
+    margin: 0 auto;
 }
 
 .nav-items {
