@@ -26,8 +26,24 @@
 
 /* navbar */
 
-.nav-primary {
+.header {
+    display: flex;
+    align-items: center;
     padding: 1.5em 4em;
+}
+
+.logo {
+    width: 2.5em;
+    margin-right: 1.5em;
+}
+
+.nav-primary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-primary {
+    flex-grow: 1;
 }
 
 .nav-list {
@@ -38,7 +54,7 @@
 }
 
 .nav-items {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .nav-links {
@@ -136,14 +152,12 @@
     margin-bottom: 0.3em;
 }
 
-#reviews-container {
-    color: rgba(37, 53, 26, 0.7);
-}
 
 .review-container {
     padding: 2em 0;
     max-width: 48%;
-    color: rgba(37, 53, 26, 0.7);
+    
 }
+
 
 
